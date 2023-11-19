@@ -1,0 +1,13 @@
+HELP.md
+target/
+
+__pycache__/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### VS Code ###
+.vscode/
