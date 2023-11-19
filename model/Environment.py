@@ -52,21 +52,3 @@ class Environment:
         print("WARNING! from Environment.__random_free_cell_cords ::: Grid msg: no free cell found!")
         return -1, -1
 
-
-if __name__ == "__main__":
-    __Y_DIM = 3
-    __X_DIM = 2
-    actors_per_cell = 2
-    actors_nr = 20
-    eenv = Environment(__Y_DIM, __X_DIM, actors_per_cell, actors_nr)
-    eenv.board.print_board_info()
-
-    eenv.add_actor_to_board(Actor())
-    eenv.board.print_actors_info()
-
-    eenv.board.draw_board_rich()
-
-    eenv.board.executeStep()
-
-
-
